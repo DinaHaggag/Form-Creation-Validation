@@ -19,13 +19,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let messages = [];
 
     // Username Validation
-    if(username.length<3){
+    if(userName.length<3){
       isValid = false;
       messages.push('Username must be at least 3 characters long.');
     }
 
     // Email Validation
-    if(!email.includes("@") && !email.includes(".")){
+    if(!email.includes("@") || !email.includes(".")){
       isValid = false;
       messages.push('Please enter a valid email address.');
     }
