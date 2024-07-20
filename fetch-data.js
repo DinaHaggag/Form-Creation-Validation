@@ -31,4 +31,4 @@ async function fetchUserData(){
 }
 
 // Invoke fetchUserData on DOMContentLoaded:
-document.addEventListener("DOMContentLoaded", fetchUserData());
+document.addEventListener("DOMContentLoaded", fetchUserData);
