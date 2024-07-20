@@ -15,7 +15,7 @@ async function fetchUserData(){
     dataContainer.innerHTML = '';
 
     // Create and Append User List:
-    const userList = document.createElement("UL");
+    const userList = document.createElement("ul");
 
     users.forEach(user => {
       const listItem = document.createElement('li');
